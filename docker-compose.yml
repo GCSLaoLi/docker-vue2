@@ -1,0 +1,7 @@
+version: "3"
+services:
+  nginx-vue2:
+    build: .
+    image: gcslaoli/docker-vue2
+    ports:
+      - 80:80 # 宿主机端口:容器端口
